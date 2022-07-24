@@ -2,7 +2,7 @@
 Bu projede basit bir elektronik yazar kasa uygulaması yaptım.Bu programın üç ana fonksiyonu var: para yatırma, para çekme, ve kasadaki banknot miktarını gösterme.
 Kasada 5, 10, 20, 50 ve 100 liralık banknotların bulunduğunu varsayın. Para çekme işleminde, olabilecek  en az sayıda banknotu kasadan çıkarmalısınız.
 Örneğin kasadan alınmak istenen para 120TL ise, kasada yeterli miktarda banknot mevcut ise bir tane 100 TL, bir tane 20 TL vermelisiniz.
-Eğer kasada 100 TL banknot kalmadıysa 4 tane 50 TL bir tane 20 TL vermelisiniz.
+Eğer kasada 100 TL banknot kalmadıysa 2 tane 50 TL bir tane 20 TL vermelisiniz.
 Para yatırma işleminde ise kullanıcı toplam miktarı girecek ve banknot sayılarının artışı tıpkı para çekme işleminde olduğu gibi  önce 100 TL banknotun maksimum 
 kapasitesine göre eklenecek sonra sırasıyla 50, 20, 10, 5 TL banknotlara ekleme yapılacaktır.
 
