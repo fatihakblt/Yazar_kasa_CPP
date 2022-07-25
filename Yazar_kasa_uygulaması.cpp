@@ -10,10 +10,10 @@ void kasaDurumu(int,int,int,int,int);
 
 int main()
 {	
-	int bakiye = 3700;
-	int i=1, secim=0, tutar=0, islem=0;
+	int bakiye = 3700; //Mevcut bakiye 3700 olarak belirlenmiştr.
+	int  secim=0, tutar=0, islem=0;
 	int banknot100, banknot50, banknot20, banknot10, banknot5;
-	banknot100 = 20;
+	banknot100 = 20;  //Başlangıcta tüm banknotlardan 20 olduğu varsayılmıştır.
 	banknot50 = 20;
 	banknot20 = 20;
 	banknot10 = 20;
@@ -36,7 +36,6 @@ int main()
 		cout << "Kasanin durumu: " << endl;
 		kasaDurumu(banknot100, banknot50, banknot20, banknot10, banknot5);
 		menu();
-		i = 1;
 		break;
 
 	case 2:
@@ -80,7 +79,6 @@ int main()
 		kasaDurumu(banknot100, banknot50, banknot20, banknot10, banknot5);
 		cout << endl;
 		menu();
-		i = 1;
 		break;
 
 	case 3:
@@ -90,7 +88,7 @@ int main()
 		cout << endl;
 		bakiye += tutar;
 		cout << "Yeni bakiyeniz: " << bakiye << endl;
-		while (tutar >= 100 && banknot100 != 40) {
+		while (tutar >= 100 && banknot100 != 40) {  //Maksimum banknot sayısı 40 adet olarak belirlenmiştir.
 			tutar -= 100;
 			banknot100 += 1;
 		}
@@ -116,7 +114,6 @@ int main()
 		kasaDurumu(banknot100, banknot50, banknot20, banknot10, banknot5);
 		cout << endl;
 		menu();
-		i = 1;
 		break;
 
 	
